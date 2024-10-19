@@ -1,0 +1,12 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server":"nodemon bmi.js -e ejs,.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

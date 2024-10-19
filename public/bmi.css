@@ -1,0 +1,141 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+form 
+{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+form label 
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="radio"] 
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="radio"] 
+{
+    width: auto;
+    margin-right: 10px;
+}
+
+form span 
+{
+    margin-right: 20px;
+}
+
+form input[type="submit"],
+form input[type="reset"] 
+{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover 
+{
+    background-color: #0056b3;
+}
+
+form input[type="reset"] 
+{
+    background-color: #dc3545;
+}
+
+form input[type="reset"]:hover 
+{
+    background-color: #c82333;
+}
+
+
+table 
+{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+table th,
+table td 
+{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+}
+
+table th 
+{
+    background-color: #007bff;
+    color: white;
+}
+
+table td 
+{
+    background-color: #f9f9f9;
+}
+
+table tr:last-child td 
+{
+    border-bottom: none;
+}
+
+h1 
+{
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 a 
+{
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h2 a:hover 
+{
+    text-decoration: underline;
+}
